@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap");
+.site {
+  font-family: "mundial", sans-serif;
+  font-style: normal;
+  width: 100%;
+  height: 100vh;
+  animation: fadeIn 2s forwards;
+}
+.site header {
+  position: fixed;
+  top: -0.2rem;
+  left: 0.1rem;
+}
+.site header .logo {
+  margin-top: 2rem;
+  margin-left: 2.5rem;
+  display: grid;
+}
+.site header .logo a {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+.site header .logo .Hitsuji {
+  font-size: 2.5rem;
+  color: #242424;
+  font-weight: bolder;
+  -webkit-clip-path: inset(0px 0px 1.3rem 0px);
+          clip-path: inset(0px 0px 1.3rem 0px);
+  transition: 0.5s cubic-bezier(0, 0.6, 0.5, 1);
+}
+.site header .logo .Hitsuji:hover {
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+}
+.site header .logo .realname {
+  font-family: "Bimbo Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  transform: rotate(-15deg);
+  font-size: 1.4rem;
+  position: relative;
+  margin-top: -2.3rem;
+  margin-left: 4.2rem;
+  pointer-events: none;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+.site header .headernav {
+  margin-left: 2.2rem;
+  margin-top: 3rem;
+}
+.site header .headernav li {
+  margin-bottom: 1.5rem;
+}
+.site header .headernav li a {
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+.site header .headernav li a .headernav_text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #242424;
+  writing-mode: vertical-rl;
+  -webkit-clip-path: inset(0 0 0 10px);
+          clip-path: inset(0 0 0 10px);
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  transition: 0.5s cubic-bezier(0, 0.6, 0.5, 1);
+}
+.site header .headernav li a .headernav_text:hover {
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  transform: translateX(0.5rem);
+}/*# sourceMappingURL=commmon2.css.map */

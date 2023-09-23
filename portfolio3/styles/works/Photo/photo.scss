@@ -1,0 +1,180 @@
+@charset "utf-8";
+$black: #242424;
+
+
+.sitemain {
+    // overflow: initial;
+    width: 100%;
+    height: 100vh;
+    margin-top: 5rem;
+
+
+    .toptext {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        margin: 0 auto;
+
+
+        p {
+            font-size: 4rem;
+            font-weight: bolder;
+
+
+        }
+
+        span {
+            font-family: "Bimbo Pro", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #fff;
+            font-size: 2.2rem;
+            position: relative;
+            margin-top: -3rem;
+            margin-left: 6.5rem;
+            rotate: (-15deg);
+        }
+    }
+
+    .account {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+
+
+
+        img {
+            width: 1.2rem;
+            height: 1.2rem;
+            margin-top: 0.2rem;
+        }
+
+        .acc {
+            font-size: 1.4rem;
+            font-family: "mundial", sans-serif;
+            font-weight: 400;
+            margin-top: -1rem;
+        }
+    }
+
+    .gallery {
+
+
+        .category {
+            font-size: 2rem;
+            font-family: "mundial", sans-serif;
+            font-weight: 400;
+            justify-content: center;
+            align-items: center;
+            margin-right: 18em;
+        }
+
+        .portraitcontent {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2em;
+
+
+            .portrait {
+                display: grid;
+
+                .portraitimg {
+                    display: flex;
+                    gap: 3rem;
+
+                    div {
+                        height: 11rem;
+
+                    }
+                }
+
+                .portraitimg2 {
+                    display: flex;
+                    margin-top: 2rem;
+                    gap: 9rem;
+                    justify-content: center;
+
+                    div {
+                        width: 11rem;
+                    }
+                }
+            }
+        }
+
+        .snapcontent {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2em;
+            animation: fadeIn 5s forwards;
+
+            .snap {
+                display: grid;
+
+                .snapimg {
+                    display: flex;
+                    gap: 3rem;
+
+                    div {
+                        height: 11.7rem;
+                    }
+                }
+
+                .snapimg2 {
+                    display: flex;
+                    margin-top: 2rem;
+                    gap: 9rem;
+                    justify-content: center;
+
+                    div {
+                        width: 11rem;
+
+                    .jin{
+                        &:hover{
+                            transform: scale(1.1);
+                        }
+                    }
+
+                    }
+                }
+            }
+        }
+    }
+
+    .livingcontent {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2em;
+        animation: fadeIn 5s forwards;
+
+        .living {
+            display: grid;
+
+            .livingimg {
+                display: flex;
+                gap: 3rem;
+
+                div {
+                    height: 11rem;
+                }
+            }
+
+            .liveimg2 {
+                display: flex;
+                margin-top: 2rem;
+                gap: 9rem;
+                justify-content: center;
+
+                div {
+                    width: 11rem;
+                }
+            }
+        }
+
+    }
+}

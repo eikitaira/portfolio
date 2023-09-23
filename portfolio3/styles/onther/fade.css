@@ -1,0 +1,14 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+body {
+  background-color: #E1E1E1;
+}
+body .site {
+  animation: fadeIn 2s forwards;
+}/*# sourceMappingURL=fade.css.map */

@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap');
+
+
+$haikei: #E1E1E1;
+$nav: #242424;
+
+
+
+.site {
+    
+    font-family: "mundial", sans-serif;
+    font-style: normal;
+    width: 100%;
+    height: 100vh;
+    animation: fadeIn 2s forwards;
+
+    header {
+        position: fixed;
+        top: -0.2rem;
+        left: 0.1rem;
+        .logo {
+            margin-top: 2rem;
+            margin-left: 2.5rem;
+            display: grid;
+
+            a {
+                max-width: fit-content;
+            }
+
+            .Hitsuji {
+                font-size: 2.5rem;
+                color: $nav;
+                font-weight: bolder;
+                clip-path: inset(0px 0px 1.3rem 0px);
+                transition: 0.5s cubic-bezier(0, 0.6, 0.5, 1);
+
+                &:hover {
+                    clip-path: inset(0 0 0 0);
+                }
+            }
+
+            .realname {
+                font-family: "Bimbo Pro", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                color: #fff;
+                transform: rotate(-15deg);
+                font-size: 1.4rem;
+                position: relative;
+                margin-top: -2.3rem;
+                margin-left: 4.2rem;
+                pointer-events: none;
+                max-width: fit-content;
+            }
+
+
+
+        }
+
+        .headernav {
+            margin-left: 2.2rem;
+            margin-top: 3rem;
+
+
+            li {
+                // display: inline-block;
+                margin-bottom: 1.5rem;
+
+                a{
+                    max-height: fit-content;
+                    max-width: fit-content;
+                    
+                    .headernav_text {
+                        font-size: 1.2rem;
+                        font-weight: 600;
+                        color: $nav;
+                        writing-mode: vertical-rl;
+                        clip-path: inset(0 0 0 10px);
+                        max-width: fit-content;
+                        transition: 0.5s cubic-bezier(0, 0.6, 0.5, 1);
+                        
+                        &:hover {
+                            clip-path: inset(0 0 0 0);
+                            transform: translateX(0.5rem);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

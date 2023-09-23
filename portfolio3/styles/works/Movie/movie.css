@@ -1,0 +1,120 @@
+@charset "UTF-8";
+.sitemain {
+  width: 100%;
+  height: 100vh;
+  margin-top: 5rem;
+}
+.sitemain .toptext {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+.sitemain .toptext p {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+.sitemain .toptext span {
+  font-family: "Bimbo Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  font-size: 2.2rem;
+  position: relative;
+  margin-top: -3rem;
+  margin-left: 6.5rem;
+  rotate: -15deg;
+}
+.sitemain .acc {
+  font-size: 1.4rem;
+  font-family: "mundial", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+.sitemain .mainmovie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 7rem;
+  margin-left: -8rem;
+}
+.sitemain .mainmovie .tenki {
+  background-image: url(../../../img/movie/天気.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 25rem;
+  height: 16rem;
+}
+.sitemain .mainmovie .tenkitext {
+  text-align: left;
+  display: grid;
+}
+.sitemain .mainmovie .title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "mundial", sans-serif;
+}
+.sitemain .submovie1 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  scale: 0.8;
+}
+.sitemain .submovie1 .sub {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8.4rem;
+}
+.sitemain .submovie1 .sub img {
+  max-width: 18rem;
+}
+.sitemain .submovie1 .sub .subtext {
+  text-align: left;
+  display: grid;
+}
+.sitemain .submovie1 .sub .subtext .title1 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: "mundial", sans-serif;
+  white-space: nowrap;
+}
+.sitemain .submovie1 .sub .subtext #one {
+  margin-right: 2rem;
+}
+.sitemain .submovie1 .sub2 {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.sitemain .submovie1 .sub2 img {
+  max-width: 18rem;
+}
+.sitemain .submovie1 .sub2 .subtext {
+  text-align: left;
+  display: grid;
+}
+.sitemain .submovie1 .sub2 .subtext .title1 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: "mundial", sans-serif;
+  white-space: normal;
+}
+
+@media screen and (max-width: 1400px) {
+  .sub {
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .sitemain {
+    scale: 0.8;
+  }
+}/*# sourceMappingURL=movie.css.map */

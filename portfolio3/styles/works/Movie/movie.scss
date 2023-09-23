@@ -1,0 +1,143 @@
+@charset "utf-8";
+$black: #242424;
+
+.sitemain {
+    width: 100%;
+    height: 100vh;
+    margin-top: 5rem;
+    
+
+    .toptext {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        margin: 0 auto;
+
+        p {
+            font-size: 4rem;
+            font-weight: bolder;
+
+
+        }
+
+        span {
+            font-family: "Bimbo Pro", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #fff;
+            font-size: 2.2rem;
+            position: relative;
+            margin-top: -3rem;
+            margin-left: 6.5rem;
+            rotate: (-15deg);
+        }
+    }
+
+    .acc {
+        font-size: 1.4rem;
+        font-family: "mundial", sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .mainmovie {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+        gap: 7rem;
+        margin-left: -8rem;
+
+        .tenki {
+            background-image: url(../../../img/movie/天気.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 25rem;
+            height: 16rem;
+        }
+
+        .tenkitext {
+            text-align: left;
+            display: grid;
+        }
+
+        .title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            font-family: "mundial", sans-serif;
+        }
+    }
+
+    .submovie1 {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        scale: 0.8;
+        .sub {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+            padding-left: 8.4rem;
+
+            img {
+                max-width: 18rem;
+                // height: 10rem;
+            }
+
+            .subtext {
+                text-align: left;
+                display: grid;
+
+                .title1 {
+                    font-size: 1.4rem;
+                    font-weight: bold;
+                    font-family: "mundial", sans-serif;
+                    white-space: nowrap;
+
+                }
+                #one{
+                    margin-right: 2rem;
+                }
+            }
+        }
+        .sub2  {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+            margin-top: 3rem
+            ;
+            img{
+                max-width: 18rem;
+            }
+
+            .subtext {
+                text-align: left;
+                display: grid;
+            
+                .title1 {
+                    font-size: 1.4rem;
+                    font-weight: bold;
+                    font-family: "mundial", sans-serif;
+                    white-space: normal;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:1400px){
+   .sub{
+    gap: 2rem;
+   }
+}
+
+@media screen and (max-width:1024px){
+    .sitemain{
+        scale: 0.8;
+    }
+}

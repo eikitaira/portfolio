@@ -1,0 +1,60 @@
+.sitemain {
+  width: 100%;
+  height: 100vh;
+  margin-top: 5rem;
+}
+.sitemain .toptext {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+.sitemain .toptext p {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+.sitemain .toptext span {
+  font-family: "Bimbo Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  font-size: 2.2rem;
+  position: relative;
+  margin-top: -3rem;
+  margin-left: 6.5rem;
+  rotate: -15deg;
+}
+.sitemain .account {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+}
+.sitemain .account img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.sitemain .account .acc {
+  font-size: 1.4rem;
+  font-family: "mundial", sans-serif;
+  font-weight: 400;
+  margin-top: -1rem;
+}
+.sitemain .portraitcontent {
+  display: grid;
+  font-size: 2rem;
+  font-family: "mundial", sans-serif;
+  font-weight: 400;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+.sitemain .portraitcontent span {
+  margin-right: 18em;
+}
+.sitemain .portraitcontent .portraitimg {
+  display: flex;
+}/*# sourceMappingURL=photo (Conflicted copy from eikiのMacBook Air on 2023-06-12).css.map */
